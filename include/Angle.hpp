@@ -9,5 +9,9 @@ public :
     Angle (double v0,double g);
     double solver(double distance);
 
+    //重载
+    double solver(double d,double h,double &t);
+
+
 
 };
